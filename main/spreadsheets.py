@@ -76,4 +76,3 @@ def google_add(sellers_data, target_brand="Dazle", sheet_name="WB_parser"):
     total_rows = len(worksheet.get_all_values())
     logger.info(f"📋 Добавлено {total_rows} записей")
     return worksheet
-google_add(sellers_data=data, target_brand="Dazle")
